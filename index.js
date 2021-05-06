@@ -686,7 +686,7 @@ function askPassword(ok, fail) {
 }
 
 let user = {
-  name: 'Вася',
+  name: 'Валентин',
 
   loginOk() {
     console.log(`${this.name} logged in`);
@@ -697,7 +697,7 @@ let user = {
   },
 };
 
-askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
+// askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
 
 const sum = (a, b, c) => a + b + c;
 
