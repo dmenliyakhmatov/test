@@ -704,7 +704,7 @@ const sum = (a, b, c) => a + b + c;
 function currySum(a) {
   return function (b) {
     return function (c) {
-      return sum(a, b, c);
+      // return sum(a, b, c);
     };
   };
 }
