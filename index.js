@@ -699,7 +699,7 @@ let user = {
 
 // askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
 
-const sum = (a, b, c) => a + b + c;
+// const sum = (a, b, c) => a + b + c;
 
 function currySum(a) {
   return function (b) {
