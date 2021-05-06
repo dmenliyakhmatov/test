@@ -686,7 +686,7 @@ function askPassword(ok, fail) {
 }
 
 let user = {
-  name: 'Вася',
+  name: 'Алексей',
 
   loginOk() {
     console.log(`${this.name} logged in`);
@@ -704,7 +704,7 @@ const sum = (a, b, c) => a + b + c;
 function currySum(a) {
   return function (b) {
     return function (c) {
-      return sum(a, b, c);
+      return sum(a);
     };
   };
 }
