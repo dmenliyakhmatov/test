@@ -699,13 +699,13 @@ let user = {
 
 askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
 
-// const sum = (a, b, c) => a + b + c;
+const sum = (a, b, c) => a + b + c;
 
-// function currySum(a) {
-//   return function (b) {
-//     return function (c) {
-//       return sum(a, b, c);
-//     };
-//   };
-// }
-// console.log(currySum(1)(2)(3))
+function currySum(a) {
+  return function (b) {
+    return function (c) {
+      return sum(a, b, c);
+    };
+  };
+}
+console.log(currySum(1)(2)(3));
