@@ -697,7 +697,7 @@ let user = {
   },
 };
 
-// askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
+// askPassword(user.loginOk.bind(user), user.loginFail.bind(user));asdsadasdasd
 
 // const sum = (a, b, c) => a + b + c;
 
